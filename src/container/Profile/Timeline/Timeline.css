@@ -1,0 +1,83 @@
+.cover {
+  height: 13rem;
+  background: var(--secondary);
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.cover img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cover > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.dp {
+  height: 7rem;
+  width: 7rem;
+  position: absolute;
+  left: 8%;
+  z-index: 50;
+  bottom: -2.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--gray);
+  border: 4px solid white;
+}
+
+.username {
+  position: absolute;
+  top: 100%;
+  margin: 0.5rem 1rem;
+  text-align: right;
+  right: 0;
+  text-transform: capitalize;
+  width: 60%;
+  font-size: 1.3rem;
+}
+
+.horizontal_scroll {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.horizontal_scroll::-webkit-scrollbar {
+  height: 0.2rem;
+}
+
+.progressBar {
+  height: 0.2rem;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #ddd;
+  display: flex;
+}
+
+.progressBar span {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  width: 15rem;
+  background: red;
+}
+
+@media only screen and (min-width: 760px) {
+  .dp {
+    height: 8rem;
+    width: 8rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .username {
+    text-align: left;
+    left: calc(8rem + 8%);
+  }
+}

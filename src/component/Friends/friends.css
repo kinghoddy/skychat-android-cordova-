@@ -1,0 +1,56 @@
+.horizontal_scroll {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.horizontal_scroll::-webkit-scrollbar {
+  height: 0.2rem;
+}
+
+.friendCard {
+  text-transform: capitalize;
+  background: none;
+  border: 0;
+  min-height: 10rem;
+}
+
+.friendCard img {
+  border: 1px solid var(--light) !important;
+  border-top-left-radius: 1.3rem;
+  border-top-right-radius: 1.3rem;
+  object-fit: cover;
+  object-position: center;
+  background: var(--light);
+  height: 6.5rem;
+  width: 100%;
+}
+
+.friendList {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.img {
+  height: 2.5rem;
+  width: 2.5rem;
+  object-fit: cover;
+  margin-left: 1rem;
+  border-radius: 50%;
+  background: var(--gray);
+}
+
+.friendList img {
+  background: var(--gray);
+  height: 3.5rem;
+  width: 3.5rem;
+  object-fit: cover;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 760px) {
+  .friendCard img {
+    height: 10rem;
+  }
+}

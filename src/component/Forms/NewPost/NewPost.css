@@ -1,0 +1,67 @@
+.msgInput {
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  background: var(--light);
+  left: 0;
+}
+
+.msgInput textarea,
+.msgInput input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 0;
+  background: var(--white);
+  color: var(--black);
+  border-radius: 1rem;
+  outline: 0;
+  font-size: 1rem;
+  max-height: 9rem !important;
+}
+
+.msgInput textarea {
+  border-radius: 1rem;
+  min-height: 5rem;
+  margin-top: 1rem;
+  background: var(--white);
+  max-height: unset;
+}
+
+.msgInput textarea:focus {
+  outline: 0 !important;
+  border: 0 !important;
+  background: var(--white);
+  border-bottom: 1px solid #27e !important;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: var(--gray-dark);
+}
+.media {
+  width: 50%;
+  border-radius: 1rem;
+  background: var(--light);
+}
+.media > * {
+  max-height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn:hover {
+  color: VAR(--BLACK);
+}
+
+@media only screen and (min-width: 1200px) {
+  .msgInput {
+    padding: 1rem 0.5rem;
+  }
+
+  .msgInput input {
+    font-size: 1.2rem;
+    padding: 0.6rem 1.3rem;
+  }
+}

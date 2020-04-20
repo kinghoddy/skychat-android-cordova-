@@ -1,0 +1,56 @@
+.msgInput {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem 0.5rem 0rem 0.5rem;
+  /* background: rgba(255, 255, 255, 0.7); */
+  left: 0;
+}
+
+.msgInput textarea {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background: var(--light);
+  color: var(--dark);
+  border: 0;
+  margin-bottom: -0.1rem;
+  /* box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.2); */
+  border-radius: 2rem;
+  font-size: 1.15rem;
+  max-height: 10rem !important;
+}
+
+.msgInput textarea:focus {
+  outline: 0 !important;
+  border: 0 !important;
+}
+.btn {
+  background: none;
+  color: var(--gray-dark);
+  border: 0;
+  font-size: 2rem;
+  border-radius: 50%;
+  height: 2.7rem;
+  width: 2.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  background: var(--white);
+}
+.btn:hover {
+  background: var(--light);
+}
+@media only screen and (min-width: 1200px) {
+  .btn {
+    /* margin: 0 0.3rem; */
+  }
+  .msgInput {
+    padding: 1rem 0.5rem;
+  }
+
+  .msgInput textarea {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+}

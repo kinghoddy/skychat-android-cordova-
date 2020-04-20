@@ -1,0 +1,22 @@
+.btnLogin {
+    font-size: 0.9rem;
+    background: orangered;
+    color: white;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    border-radius: 2rem;
+}
+
+.btnLogin:hover {
+    background: orange
+}
+
+.googleBtn {
+    border-radius: 2rem;
+    text-transform: capitalize;
+    background: #ddd
+}
+
+.googleBtn svg {
+    color: rgb(0, 60, 255) !important;
+}

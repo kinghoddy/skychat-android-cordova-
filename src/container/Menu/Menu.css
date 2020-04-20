@@ -1,0 +1,24 @@
+.Menu {}
+
+.MenuLink {
+    background: var(--white);
+    padding: 0 2rem;
+    height: 4rem;
+    font-size: 1.1rem;
+    align-items: center;
+    color: var(--red);
+    border-bottom: 1px solid var(--light)
+}
+
+.MenuLink:hover {
+    background: var(--light)
+}
+
+.MenuLink img {
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid var(--secondary);
+    background: var(--secondary);
+}

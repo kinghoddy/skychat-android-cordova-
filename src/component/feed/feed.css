@@ -1,0 +1,16 @@
+.wrapper {
+  max-width: 40rem;
+}
+.brand {
+  background: linear-gradient(to right, gold, red);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: -3rem;
+  text-transform: uppercase;
+  font-family: "Architects Daughter", cursive !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  /* color: var(--dark); */
+  color: transparent;
+}

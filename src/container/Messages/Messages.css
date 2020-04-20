@@ -1,0 +1,88 @@
+.Messages {
+  height: 100vh;
+}
+
+.navbar {
+  height: 3.6rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  overflow: hidden;
+  background: var(--light);
+  border-radius: 50%;
+}
+
+.icon img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.overflow {
+  overflow: auto;
+}
+
+.bubble {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 2rem;
+  height: 4rem;
+  border: 0;
+  border-radius: 50%;
+  width: 4rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  background: white;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bubble i {
+  font-size: 1.8rem
+}
+
+.bubble:focus {
+  outline: 0;
+}
+
+.chatroom {
+  background-color: var(--light);
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 300;
+  height: 100vh;
+}
+
+.left {
+  position: fixed;
+  bottom: 0;
+  z-index: 50;
+
+  height: 100vh;
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .chatroom,
+  .left {
+    position: relative;
+  }
+
+  .left {
+    flex: 0 0 28%;
+    width: 28%;
+  }
+
+  .navbar {
+    position: absolute;
+  }
+}

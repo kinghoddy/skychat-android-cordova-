@@ -1,0 +1,10 @@
+.theme {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 1rem;
+    background: #333
+}
+
+.theme:first-child {
+    background: #ddd
+}

@@ -1,0 +1,107 @@
+.chat,
+.gchat {
+  font-size: 1rem;
+  border-radius: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.2rem;
+  word-wrap: break-word;
+  line-height: 1.3;
+  max-width: 80%;
+}
+
+.icon {
+  background: var(--secondary);
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  margin-bottom: 0rem;
+  font-weight: 300;
+  padding: 0.3rem 0.8rem 0.3rem 0rem;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  padding: none;
+}
+
+.sent {
+  background: rgb(255, 194, 192);
+  color: #000;
+  margin-left: auto;
+}
+
+.gchat.sent {
+  background: rgb(255, 82, 51);
+  color: #fff;
+}
+
+.sent p {
+  display: none;
+}
+
+.received {
+  /* box-shadow: 0 .1rem .1rem rgba(0, 0, 0, .2); */
+  background: var(--light);
+  color: var(--dark);
+  margin-right: auto;
+  font-weight: 400;
+}
+
+.time {
+  margin: 1rem auto;
+  color: red;
+  background: var(--gray);
+}
+
+.time p {
+  display: none;
+}
+
+.skymail {
+  background: rgba(255, 236, 184, 0.5);
+  margin: 1rem auto;
+  text-align: center;
+  color: black;
+}
+
+.added p {
+  display: none;
+}
+
+.added {
+  background: rgba(120, 228, 247, 0.5);
+  margin: 0 auto 0.6rem auto;
+  text-align: center;
+  max-width: 90%;
+}
+
+.lg {
+  padding: 0.3rem 0.7rem;
+  border-radius: 1rem;
+}
+
+.gchat.lg {
+  border-radius: 0.7rem;
+}
+
+.lg2 {
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.7rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .chat {
+    max-width: 60%;
+  }
+}

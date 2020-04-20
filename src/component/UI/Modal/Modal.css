@@ -1,0 +1,29 @@
+.Modal {
+  position: fixed;
+  z-index: 2500;
+  background-color: var(--white);
+  width: 90%;
+  border: 1px solid #ccc;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+  padding: 16px;
+  left: 50%;
+  top: 50%;
+  max-height: 95vh;
+  overflow: auto;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+.cancel {
+  position: absolute;
+  right: 0.5rem;
+  top: 1rem;
+  background: none;
+  border: none;
+}
+
+@media (min-width: 600px) {
+  .Modal {
+    width: 600px;
+  }
+}

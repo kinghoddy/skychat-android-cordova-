@@ -1,0 +1,17 @@
+.nots {
+    position: relative;
+}
+
+.picture {
+    height: 3rem;
+    flex-shrink: 0;
+    width: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.picture img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

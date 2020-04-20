@@ -1,0 +1,30 @@
+.horizontal {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    display: flex;
+    position: relative;
+}
+
+.horizontal * {
+    flex-shrink: 0;
+}
+
+.fixed {
+    position: absolute;
+    top: 3.5rem;
+    background: var(--white);
+    width: 100%;
+    z-index: 100
+}
+
+.pushed {
+    padding-top: 10rem
+}
+
+.horizontal::-webkit-scrollbar {
+    height: .2rem;
+}
+
+.next {
+    padding: .3rem 1.3rem
+}
