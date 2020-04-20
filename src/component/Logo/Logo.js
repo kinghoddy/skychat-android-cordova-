@@ -12,7 +12,7 @@ const logo = (props) => {
 
     if (props.type === 'l1') {
         return (<div className={classes.Logo} style={{ height: props.height, width: props.width }}>
-            <img src={'./' + Logo1} alt="skychat Logo1" />
+            <img src={Logo1} alt="skychat Logo1" />
         </div>)
     } else if (props.type === 'l2') {
         return (<div className={classes.Logo} style={{ height: props.height, width: props.width }}>

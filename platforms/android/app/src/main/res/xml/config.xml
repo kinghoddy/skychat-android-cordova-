@@ -10,7 +10,7 @@
     </feature>
     <name>skychat</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+          A blasing fast  social media by kinghoddy
     </description>
     <author email="odunmilade@gmail.com" href="http://hoddy.netlify.com">
 Noel odunmilade sogbuyi
@@ -24,5 +24,11 @@ Noel odunmilade sogbuyi
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
+    <splash src="res/logo/skychat_bg.jpg" />
+    <icon src="res/logo/logo_red.png" />
     <preference name="loglevel" value="DEBUG" />
+    <preference name="SplashScreenDelay" value="1000" />
+    <preference name="SplashMaintainAspectRatio" value="false" />
+    <preference name="SplashShowOnlyFirstTime" value="true" />
+    <preference name="android-minSdkVersion" value="19" />
 </widget>
